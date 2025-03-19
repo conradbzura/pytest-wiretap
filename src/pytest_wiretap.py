@@ -10,6 +10,7 @@ CALLED: Final[str] = "-> "
 RETURNED: Final[str] = "<- "
 RAISED: Final[str] = "!! "
 
+TEST = "test"
 
 def swap_quotes(string):
     if "'" not in string:
